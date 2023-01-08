@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "postcss"
-import CategoriesBar from "../components/categoriesBar"
-import Video from '../components/video'
+import CategoriesBar from "./components/categoriesBar"
+import Video from './components/video'
 
 const HomePage = () => {
     return (
