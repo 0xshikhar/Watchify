@@ -7,7 +7,7 @@ import Header from './components/header'
 export default function Home() {
   return (
     <div>
-      <h1 className='font-bold underline '>Is everything working</h1>
+      {/* <h1 className='font-bold underline '>Is everything working</h1> */}
       <Header />
       {/* <div className='app_container'>
         <Sidebar />
