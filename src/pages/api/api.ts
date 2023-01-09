@@ -7,13 +7,13 @@ const options = {
     // url: 'https://youtube138.p.rapidapi.com/auto-complete/',
     params: { q: 'desp', hl: 'en', gl: 'US' },
     headers: {
-        'X-RapidAPI-Key': process.env.NEXT_APP_YOUTUBE_API_KEY,
+        'X-RapidAPI-Key': process.env.NEXT_PUBLIC_YOUTUBE_API_KEY,
         'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
 
-console.log("Youtube",process.env.NEXT_PUBLIC_YOUTUBE_API_KEY,);
-console.log("env local access",process.env.YOUTUBE_API_KEY,);
+// console.log("Youtube",process.env.NEXT_PUBLIC_YOUTUBE_API_KEY,);
+// console.log("env local access",process.env.YOUTUBE_API_KEY,);
 
 // axios.request(options).then(function (response) {
 //     console.log(response.data);
