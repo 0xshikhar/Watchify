@@ -2,6 +2,8 @@ import React from "react";
 // import './_styles.scss'
 
 const Header = () => {
+    console.log("Youtube",process.env.NEXT_PUBLIC_YOUTUBE_API_KEY,);
+    console.log("env local access",process.env.YOUTUBE_API_KEY,);
     return (
         <div className="navbar bg-base-200 ">
 
