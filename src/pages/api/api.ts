@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://youtube138.p.rapidapi.com/";
+const BASE_URL = "https://youtube138.p.rapidapi.com";
 
 const options = {
     // method: 'GET',
@@ -21,7 +21,7 @@ const options = {
 //     console.error(error);
 // });
 
-const fetchDataFromApi = async () => {
+export const fetchDataFromApi = async (url) => {
     const {data} = await axios.get(`${BASE_URL}/${url}`, options);
     return data;
     // const response = await axios.request(options);

@@ -2,10 +2,12 @@ import Image from 'next/image'
 // import Sidebar from './components/sidebar'
 import Header from './components/header'
 // import HomePage from './homepage'
+import {ContextApiProvider} from './../context/contextApi'
 
 
 export default function Home() {
   return (
+    <ContextApiProvider>
     <div>
       {/* <h1 className='font-bold underline '>Is everything working</h1> */}
       <Header />
@@ -16,5 +18,6 @@ export default function Home() {
         </Container>
       </div> */}
     </div>
+    </ContextApiProvider>
   )
 }
